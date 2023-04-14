@@ -1,0 +1,110 @@
+body {
+  background-color: rgb(77, 132, 133);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(119, 204, 205);
+  border-radius: 6px;
+  box-shadow: 5px 5px 5px;
+}
+.container .email,
+.container .password {
+  position: relative;
+}
+.container .email .q,
+.container .password .q {
+  position: absolute;
+  font-size: 12px;
+  width: 12px;
+  right: 2px;
+  top: 20px;
+}
+.container .email .q:hover,
+.container .password .q:hover {
+  cursor: pointer;
+}
+.container .email .icon,
+.container .password .icon {
+  position: absolute;
+  font-size: 14px;
+  top: 22px;
+  left: 6px;
+}
+.container .email label,
+.container .password label {
+  display: block;
+  font-size: 12px;
+}
+.container .email input,
+.container .password input {
+  display: block;
+  padding: 4px 0 4px 22px;
+  border-radius: 6px;
+}
+.container .func {
+  display: flex;
+  align-items: center;
+  max-width: 8px 0;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 58px;
+}
+.container .func input {
+  margin: 0;
+}
+.container .func label {
+  font-size: 12px;
+}
+.container .func button {
+  font-size: 6px;
+  border: none;
+  background-color: rgb(77, 132, 133);
+  border-radius: 4px;
+  transition: 0.3s;
+}
+.container .func button:hover {
+  background-color: rgb(47, 78, 47);
+}
+.container .func button:active {
+  scale: 0.95;
+}
+.container .func button a {
+  color: white;
+  text-decoration: none;
+}
+.container button {
+  font-size: 6px;
+  border: none;
+  background-color: rgb(77, 132, 133);
+  border-radius: 4px;
+  color: white;
+  padding: 6px 16px;
+  margin-bottom: 24px;
+  margin-top: 12px;
+  border-radius: 4px;
+  transition: 0.6s;
+  box-shadow: 2px 2px 2px black;
+}
+.container button:hover {
+  background-color: rgb(47, 78, 47);
+}
+.container button:active {
+  scale: 0.95;
+}/*# sourceMappingURL=model.css.map */

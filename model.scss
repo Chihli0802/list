@@ -1,0 +1,162 @@
+body {
+    background-color: rgb(77, 132, 133);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    //固定畫面，無卷軸
+    width: 100vw;
+    height: 100vh;
+    margin: 0 0;
+}
+
+//*全部套用border-box
+*,
+*::before,
+*::after {
+    //border-box 設定padding時，不改變實際寬度，而是往內壓縮
+    box-sizing: border-box;
+}
+
+$firstcolcor: rgb(77, 132, 133);
+$secondcolor: rgb(119, 204, 205);
+
+
+.container {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    //控制軸線 預設raw 改為column
+    flex-direction: column;
+    background-color: $secondcolor ;
+
+    border-radius: 6px;
+    box-shadow: 5px 5px 5px;
+
+    //email, .password
+    //兩個樣式都一樣，可以用逗號直接兩個共用
+    .email,
+    .password {
+        position: relative;
+
+        .q {
+            position: absolute;
+            font-size: 12px;
+            width: 12px;
+            right: 2px;
+            top: 20px;
+
+            &:hover {
+                //變成滑鼠
+                cursor: pointer;
+            }
+        }
+
+        .icon {
+            position: absolute;
+            font-size: 14px;
+            top: 22px;
+            left: 6px;
+        }
+
+        //label input都是inline，強行轉成block，就會轉成上下
+        label {
+            display: block;
+            font-size: 12px;
+        }
+
+        input {
+            display: block;
+            //因為有border box 所以已以往內推
+            padding: 4px 0 4px 22px;
+            border-radius: 6px;
+
+        }
+
+    }
+
+    //keep login and sign up
+    .func {
+        display: flex;
+        align-items: center;
+        max-width: 8px 0;
+        justify-content: space-between;
+        width: 100%;
+
+        //對應box-sizing: border-box;
+        padding: 0 58px;
+
+        input {
+            margin: 0;
+        }
+
+        label {
+            font-size: 12px;
+        }
+
+        button {
+            font-size: 6px;
+            border: none;
+
+            //改按鈕顏色
+            background-color: $firstcolcor ;
+            border-radius: 4px;
+
+            transition: 0.3s;
+
+            &:hover {
+                background-color: rgb(47, 78, 47);
+            }
+
+            &:active {
+                scale: 0.95;
+            }
+
+            a {
+                //超連結字體顏色
+                color: white;
+                //將超連結底線去掉
+                text-decoration: none;
+
+            }
+        }
+
+
+
+    }
+
+
+
+    //log in button
+    button {
+        font-size: 6px;
+        border: none;
+
+        //改按鈕顏色
+        background-color: $firstcolcor ;
+        border-radius: 4px;
+        color: white;
+
+        padding: 6px 16px;
+        margin-bottom: 24px;
+        margin-top: 12px;
+        border-radius: 4px;
+
+        //動畫
+        transition: 0.6s;
+
+        &:hover {
+            background-color: rgb(47, 78, 47);
+        }
+
+        box-shadow: 2px 2px 2px black;
+
+        &:active {
+            scale: 0.95;
+        }
+    }
+
+
+
+}

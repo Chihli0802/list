@@ -1,66 +1,101 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-color: rgb(61, 97, 122);
+    background-color: rgb(197, 227, 208);
     display: flex;
     justify-content: center;
-    
+
 }
 
-   
+
 .all{
-   margin: 100px 100px;
-   
-   header{
-    text-align: center;
-   }
-   
-   .mail{
-        .label{
-            margin-bottom: 3px;
-        }
-        .input{
-          
-            margin-bottom:10px;
-        }
-   }
+    padding: 100px 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgb(121, 176, 141);
 
-
-   .namepassword{
-    .label{
-        margin-bottom: 3px;
-    }
-    .input{
-        margin-bottom:20px;
-    }
-   }
-
-
-   .area3{
-        display: flex;
-        justify-content: space-between;
-
-        .keep-log{
-            margin-bottom:13px;
-        }
-        .sign-up{
-            border-radius: 50%;
-            margin-bottom:13px;
-        }
-        .sign-up:active{
-            scale:0.95;
-        }
+    header {
+        text-align: center;
     }
 
-
-    .area4{
-        display: flex;
-        justify-content: center;
+    .mail {
         
-        .login:active{
-            scale:0.95;
+
+        label {
+            position: relative;
+
+            p {
+                font-size: 18px;
+                margin-bottom: 0px;
+            }
+
+            i {
+                font-size: 3px;
+                position: absolute;
+                left: 5px;
+                bottom: 2px;
+            }
+
+            input {
+                text-indent: 18px;
+            }
+
         }
-      
     }
 
+
+    .namepassword{
+        margin-bottom: 30px;
+        label {
+            position: relative;
+        
+            p {
+                font-size: 18px;
+                margin-bottom: 0px;
+            }
+
+            i {
+                font-size: 2px;
+                position: absolute;
+                left: 3px;
+                bottom: 2px;
+            }
+
+            input {
+                text-indent: 18px;
+            }
+        }
+    }
+
+
+    .area3 {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            .keep-log {
+                margin-bottom: 13px;
+            }
+
+            .sign-up {
+                border-radius: 50%;
+                margin-bottom: 13px;
+            }
+
+            .sign-up:active {
+                scale: 0.95;
+            }
+    }
+
+
+    .area4 {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 10px;
+            .login:active {
+                scale: 0.95;
+            }
+
+    }
+
+    
 }

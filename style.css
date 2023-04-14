@@ -1,32 +1,59 @@
 body {
   margin: 0px;
   padding: 0px;
-  background-color: rgb(61, 97, 122);
+  background-color: rgb(197, 227, 208);
   display: flex;
   justify-content: center;
 }
 
 .all {
-  margin: 100px 100px;
+  padding: 100px 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: rgb(121, 176, 141);
 }
 .all header {
   text-align: center;
 }
-.all .mail .label {
-  margin-bottom: 3px;
+.all .mail label {
+  position: relative;
 }
-.all .mail .input {
-  margin-bottom: 10px;
+.all .mail label p {
+  font-size: 18px;
+  margin-bottom: 0px;
 }
-.all .namepassword .label {
-  margin-bottom: 3px;
+.all .mail label i {
+  font-size: 3px;
+  position: absolute;
+  left: 5px;
+  bottom: 2px;
 }
-.all .namepassword .input {
-  margin-bottom: 20px;
+.all .mail label input {
+  text-indent: 18px;
+}
+.all .namepassword {
+  margin-bottom: 30px;
+}
+.all .namepassword label {
+  position: relative;
+}
+.all .namepassword label p {
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+.all .namepassword label i {
+  font-size: 2px;
+  position: absolute;
+  left: 3px;
+  bottom: 2px;
+}
+.all .namepassword label input {
+  text-indent: 18px;
 }
 .all .area3 {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 10px;
 }
 .all .area3 .keep-log {
   margin-bottom: 13px;
@@ -41,6 +68,7 @@ body {
 .all .area4 {
   display: flex;
   justify-content: center;
+  margin-bottom: 10px;
 }
 .all .area4 .login:active {
   scale: 0.95;

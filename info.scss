@@ -1,0 +1,130 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(197, 227, 208);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.all-area{
+    padding: 100px 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgb(121, 176, 141);
+   
+
+    header {
+        text-align: center;
+    }
+
+    .mail-account {
+        margin-bottom: 10px;
+
+        label {
+            position: relative;
+
+            p {
+                font-size: 18px;
+                margin-bottom: 0px;
+            }
+
+            i {
+                font-size: 3px;
+                position: absolute;
+                left: 5px;
+                bottom: 2px;
+            }
+
+            input {
+                text-indent: 18px;
+            }
+        }
+
+    }
+
+    .name {
+        margin-bottom: 10px;
+
+        label {
+            position: relative;
+
+            p {
+                font-size: 18px;
+                margin-bottom: 0px;
+            }
+
+            i {
+                font-size: 4px;
+                position: absolute;
+                left: 5px;
+                bottom: 2px;
+            }
+
+            input {
+                text-indent: 13px;
+            }
+        }
+    }
+
+
+    .password {
+        margin-bottom: 10px;
+
+        label {
+            position: relative;
+
+            p {
+                font-size: 18px;
+                margin-bottom: 0px;
+            }
+
+            i {
+                font-size: 4px;
+                position: absolute;
+                left: 5px;
+                bottom: 2px;
+            }
+
+            input {
+                text-indent: 18px;
+            }
+        }
+    }
+
+    .repeat-password {
+        margin-bottom: 10px;
+        label {
+            position: relative;
+
+            p {
+                font-size: 18px;
+                margin-bottom: 0px;
+            }
+
+            i {
+                font-size: 4px;
+                position: absolute;
+                left: 5px;
+                bottom: 2px;
+            }
+
+            input {
+                text-indent: 18px;
+            }
+        }
+    }
+
+    .area4{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        .sign-up:active {
+            scale: 0.95;
+        }
+
+    }
+
+}

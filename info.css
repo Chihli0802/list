@@ -1,0 +1,102 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(197, 227, 208);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.all-area {
+  padding: 100px 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: rgb(121, 176, 141);
+}
+.all-area header {
+  text-align: center;
+}
+.all-area .mail-account {
+  margin-bottom: 10px;
+}
+.all-area .mail-account label {
+  position: relative;
+}
+.all-area .mail-account label p {
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+.all-area .mail-account label i {
+  font-size: 3px;
+  position: absolute;
+  left: 5px;
+  bottom: 2px;
+}
+.all-area .mail-account label input {
+  text-indent: 18px;
+}
+.all-area .name {
+  margin-bottom: 10px;
+}
+.all-area .name label {
+  position: relative;
+}
+.all-area .name label p {
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+.all-area .name label i {
+  font-size: 4px;
+  position: absolute;
+  left: 5px;
+  bottom: 2px;
+}
+.all-area .name label input {
+  text-indent: 13px;
+}
+.all-area .password {
+  margin-bottom: 10px;
+}
+.all-area .password label {
+  position: relative;
+}
+.all-area .password label p {
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+.all-area .password label i {
+  font-size: 4px;
+  position: absolute;
+  left: 5px;
+  bottom: 2px;
+}
+.all-area .password label input {
+  text-indent: 18px;
+}
+.all-area .repeat-password {
+  margin-bottom: 10px;
+}
+.all-area .repeat-password label {
+  position: relative;
+}
+.all-area .repeat-password label p {
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+.all-area .repeat-password label i {
+  font-size: 4px;
+  position: absolute;
+  left: 5px;
+  bottom: 2px;
+}
+.all-area .repeat-password label input {
+  text-indent: 18px;
+}
+.all-area .area4 {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.all-area .area4 .sign-up:active {
+  scale: 0.95;
+}/*# sourceMappingURL=info.css.map */
